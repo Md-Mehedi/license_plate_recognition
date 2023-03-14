@@ -10,22 +10,22 @@ This project do the following tasks.
 
 1. Detect license plate from vehicle.
 
-<div style="display: flex; justify-content: center; gap: 10px; align-items: center; space-between: 20px">
-  <img src="./images/P1.jpg" width="200"/>  
-  <img src="./images/arrow.png" width="50"/>
-  <img src="./images/P2.jpg" width="200"/>
+<div align="center" style="display: flex; justify-content: center; gap: 10px; align-items: center; space-between: 20px">
+  <img align='center' src="./images/P1.jpg" width="200"/>  
+  <img align='center' src="./images/arrow.png" width="50"/>
+  <img align='center' src="./images/P2.jpg" width="200"/>
 </div>
 2. Cropped the license plate region.
-<div style="display: flex; justify-content: center; gap: 10px; align-items: center; space-between: 20px">
-  <img src="./images/P2.jpg" width="200"/>  
-  <img src="./images/arrow.png" width="50"/>
-  <img src="./images/P3.jpg" width="200"/>
+<div align='center' style="display: flex; justify-content: center; gap: 10px; align-items: center; space-between: 20px">
+  <img align='center' src="./images/P2.jpg" width="200"/>  
+  <img align='center' src="./images/arrow.png" width="50"/>
+  <img align='center' src="./images/P3.jpg" width="200"/>
 </div>
 3. Detect the text written on license plate.
-<div style="display: flex; justify-content: center; gap: 10px; align-items: center; space-between: 20px">
-  <img src="./images/P3.jpg" width="200"/>  
-  <img src="./images/arrow.png" width="50"/>
-  <img src="./images/P4.jpg" width="200"/>
+<div align='center' style="display: flex; justify-content: center; gap: 10px; align-items: center; space-between: 20px">
+  <img align='center' src="./images/P3.jpg" width="200"/>  
+  <img align='center' src="./images/arrow.png" width="50"/>
+  <img align='center' src="./images/P4.jpg" width="200"/>
 </div>
 
 ## Procedure
@@ -50,10 +50,11 @@ In this project there is used two dataset in two phase.
 - **Confusion Metrix :**
 ![Confusion Metrix](./2.%20Plate%20to%20Number%20Model/confusion_matrix.png)
 
-## Using Algorithm
+## Used Algorithm
 
 
 [![Python](https://img.shields.io/badge/v5-0D7EBE?style=flat&label=YOLO&logoColor=red&labelColor=yellow)](https://docs.ultralytics.com/)
+
 YOLO is a fast and efficient object detection algorithm in machine learning that can detect multiple objects in a single forward pass of a CNN.
 
 ## Dataset
