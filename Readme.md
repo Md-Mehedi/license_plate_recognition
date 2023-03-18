@@ -11,21 +11,21 @@ This project do the following tasks.
 1. Detect license plate from vehicle.
 
 <div align="center" style="display: flex; justify-content: center; gap: 10px; align-items: center; space-between: 20px">
-  <img align='center' src="./images/P1.jpg" width="200"/>  
-  <img align='center' src="./images/arrow.png" width="50"/>
-  <img align='center' src="./images/P2.jpg" width="200"/>
+  <img align='center' src="./images/P1.jpg" width="30%"/>  
+  <img align='center' src="./images/arrow.png" width="10%"/>
+  <img align='center' src="./images/P2.jpg" width="30%"/>
 </div>
 2. Cropped the license plate region.
 <div align='center' style="display: flex; justify-content: center; gap: 10px; align-items: center; space-between: 20px">
-  <img align='center' src="./images/P2.jpg" width="200"/>  
-  <img align='center' src="./images/arrow.png" width="50"/>
-  <img align='center' src="./images/P3.jpg" width="200"/>
+  <img align='center' src="./images/P2.jpg" width="30%"/>  
+  <img align='center' src="./images/arrow.png" width="10%"/>
+  <img align='center' src="./images/P3.jpg" width="30%"/>
 </div>
 3. Detect the text written on license plate.
 <div align='center' style="display: flex; justify-content: center; gap: 10px; align-items: center; space-between: 20px">
-  <img align='center' src="./images/P3.jpg" width="200"/>  
-  <img align='center' src="./images/arrow.png" width="50"/>
-  <img align='center' src="./images/P4.jpg" width="200"/>
+  <img align='center' src="./images/P3.jpg" width="30%"/>  
+  <img align='center' src="./images/arrow.png" width="10%"/>
+  <img align='center' src="./images/P4.jpg" width="30%"/>
 </div>
 
 ## Procedure
@@ -53,7 +53,7 @@ In this project there is used two dataset in two phase.
 ## Used Algorithm
 
 
-[![Python](https://img.shields.io/badge/v5-0D7EBE?style=flat&label=YOLO&logoColor=red&labelColor=yellow)](https://docs.ultralytics.com/)
+[![YOLO](https://img.shields.io/badge/v5-0D7EBE?style=flat&label=YOLO&logoColor=red&labelColor=yellow)](https://docs.ultralytics.com/)
 
 YOLO is a fast and efficient object detection algorithm in machine learning that can detect multiple objects in a single forward pass of a CNN.
 
@@ -61,7 +61,7 @@ YOLO is a fast and efficient object detection algorithm in machine learning that
 
 #### Source
 
-[Bangla LPDB - A](https://zenodo.org/record/4718238)
+[![Bangla LPDB - A](https://img.shields.io/badge/Banlga%20LPDB%20--%20A-0D7EBE?style=flat)](https://zenodo.org/record/4718238)
 
 #### Description
 
@@ -74,7 +74,7 @@ This dataset is of two parts-
 2. Cropped Bangla license plate which includes 2662 images (720 synthetic images, 1942 images manually cropped from part-1).
 
 Each image also contains its corresponding annotated text file in YOLO format. For Part-1 and Part-2, number of classes are 1 and 102, respectively.
-*~[Copied from source webpage]~*
+***[Copied from source webpage]***
 
 ## Comparison
 
